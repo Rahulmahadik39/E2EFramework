@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T13:30:54 IST" name="Default suite" finished-at="2024-01-24T13:32:10 IST" duration-ms="76578">
+  <suite started-at="2024-01-24T14:02:38 IST" name="Default suite" finished-at="2024-01-24T14:04:01 IST" duration-ms="82987">
     <groups>
     </groups>
-    <test started-at="2024-01-24T13:30:54 IST" name="Default test" finished-at="2024-01-24T13:32:10 IST" duration-ms="76578">
+    <test started-at="2024-01-24T14:02:38 IST" name="Default test" finished-at="2024-01-24T14:04:01 IST" duration-ms="82987">
       <class name="webAppTestPackeg.TestBrokenLink">
-        <test-method is-config="true" signature="preRequesite()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:30:54 IST" name="preRequesite" finished-at="2024-01-24T13:31:48 IST" duration-ms="54736" status="PASS">
+        <test-method is-config="true" signature="preRequesite()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T14:02:38 IST" name="preRequesite" finished-at="2024-01-24T14:03:55 IST" duration-ms="76229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preRequesite -->
-        <test-method signature="testLinks()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:31:48 IST" name="testLinks" finished-at="2024-01-24T13:32:10 IST" duration-ms="21420" status="PASS">
+        <test-method signature="testLinks()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T14:03:55 IST" name="testLinks" finished-at="2024-01-24T14:04:01 IST" duration-ms="6362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLinks -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:32:10 IST" name="closeApp" finished-at="2024-01-24T13:32:10 IST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T14:04:01 IST" name="closeApp" finished-at="2024-01-24T14:04:01 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
