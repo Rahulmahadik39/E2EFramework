@@ -28,7 +28,7 @@ public class TestBrokenLink extends Base {
     	 blr= new BrokenLinkRepository(driver);
     	  driver.get("https://demoqa.com/broken");
       }
-      
+            
       
       @Test
       public void testLinks() throws IOException, InterruptedException {
