@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-06T10:36:12 IST" name="Default suite" finished-at="2024-01-06T10:36:24 IST" duration-ms="11977">
+  <suite started-at="2024-01-24T13:30:54 IST" name="Default suite" finished-at="2024-01-24T13:32:10 IST" duration-ms="76578">
     <groups>
     </groups>
-    <test started-at="2024-01-06T10:36:12 IST" name="Default test" finished-at="2024-01-06T10:36:24 IST" duration-ms="11977">
-      <class name="webAppTestPackeg.WebdriverManagerTest">
-        <test-method signature="c()[pri:0, instance:webAppTestPackeg.WebdriverManagerTest@62379589]" started-at="2024-01-06T10:36:12 IST" name="c" finished-at="2024-01-06T10:36:23 IST" duration-ms="11866" status="PASS">
+    <test started-at="2024-01-24T13:30:54 IST" name="Default test" finished-at="2024-01-24T13:32:10 IST" duration-ms="76578">
+      <class name="webAppTestPackeg.TestBrokenLink">
+        <test-method is-config="true" signature="preRequesite()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:30:54 IST" name="preRequesite" finished-at="2024-01-24T13:31:48 IST" duration-ms="54736" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c -->
-      </class> <!-- webAppTestPackeg.WebdriverManagerTest -->
+        </test-method> <!-- preRequesite -->
+        <test-method signature="testLinks()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:31:48 IST" name="testLinks" finished-at="2024-01-24T13:32:10 IST" duration-ms="21420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinks -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:32:10 IST" name="closeApp" finished-at="2024-01-24T13:32:10 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- webAppTestPackeg.TestBrokenLink -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

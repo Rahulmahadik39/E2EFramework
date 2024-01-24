@@ -16,19 +16,18 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import resources.Base;
 import webRepositery.*;
 
 
-public class TestBrokenLink {
+public class TestBrokenLink extends Base {
 	
       WebDriver driver;
       BrokenLinkRepository blr;
        
       @BeforeTest
       public void preRequesite() throws IOException {
-    	 // driver=initializeDriver();
-    	  WebDriverManager.chromedriver().setup();
-    	  WebDriver driver=new ChromeDriver();
+    	 driver=initializeDriver();
     	  
     	 blr= new BrokenLinkRepository(driver);
     	  driver.get("https://demoqa.com/broken");
