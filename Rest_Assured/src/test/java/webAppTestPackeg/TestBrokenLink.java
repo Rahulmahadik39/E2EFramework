@@ -2,20 +2,16 @@ package webAppTestPackeg;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import resources.Base;
 import webRepositery.*;
 
@@ -27,7 +23,6 @@ public class TestBrokenLink extends Base {
        
       @BeforeTest
       public void preRequesite() throws IOException {
-    	  //Nice work Good luck
     	 driver=initializeDriver();
     	  
     	 blr= new BrokenLinkRepository(driver);
