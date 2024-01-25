@@ -28,7 +28,7 @@ public class TestBrokenLink extends Base {
     	 blr= new BrokenLinkRepository(driver);
     	  driver.get("https://demoqa.com/broken");
       }
-            
+      
       
       @Test
       public void testLinks() throws IOException, InterruptedException {
@@ -52,7 +52,7 @@ public class TestBrokenLink extends Base {
     		 
     		 HttpURLConnection urlConnect=(HttpURLConnection) url.openConnection();
     		 urlConnect.connect();
-    		 //Thread.sleep(2000);
+    		 Thread.sleep(2000);
     		 int responceCode=urlConnect.getResponseCode();
     		 System.out.println("Link ResponceCode: "+responceCode);
     		 
@@ -63,7 +63,8 @@ public class TestBrokenLink extends Base {
     			 System.out.println("Working link: "+ link);
     		 }
     		
-    		    		 
+    		 
+    		 
     	 }
     	  
       }
