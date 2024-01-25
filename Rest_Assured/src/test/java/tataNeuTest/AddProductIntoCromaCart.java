@@ -97,7 +97,7 @@ public class AddProductIntoCromaCart extends Base {
 	     Assert.assertTrue(isCartEmty,"StepFail: Still Product in cart");
 	     String cartStatus=EmptyCartStatus.getText();
 	     System.out.println("StepPass: "+cartStatus);
-	     //getScreenShot(cartStatus, driver);
+	     getScreenShot(cartStatus, driver);
 	}
 	
     @AfterTest
