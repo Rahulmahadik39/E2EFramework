@@ -98,7 +98,7 @@ public class AddProductIntoCromaCart extends Base {
 	     String cartStatus=EmptyCartStatus.getText();
 	     System.out.println("StepPass: "+cartStatus);
 	     //getScreenShot(cartStatus, driver);
-     }
+      }
 	
     @AfterTest
     public void closeDriver() {
