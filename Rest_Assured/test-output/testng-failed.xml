@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tataNeuTest.AddProductIntoCromaCart">
+      <class name="webAppTestPackeg.WebdriverManagerTest">
         <methods>
-          <include name="lounchBrowserGetElementsAsses"/>
-          <include name="cromaProductAddIntoCartTest"/>
+          <include name="c"/>
         </methods>
-      </class> <!-- tataNeuTest.AddProductIntoCromaCart -->
+      </class> <!-- webAppTestPackeg.WebdriverManagerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

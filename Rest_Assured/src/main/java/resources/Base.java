@@ -68,20 +68,18 @@ public class Base {
 		
 	}
 	
-	/*
+/*	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		Base base=new Base();
 		WebDriver driver= base.initializeDriver();
-		driver.get("https://www.tatadigital.com/v2/homepage");
-		//Thread.sleep(10000);
+		driver.get("https://www.google.com/");
 		String name=driver.getTitle();
 		System.out.println(name);
 		base.getScreenShot(name, driver);
-		
-		//driver.quit();
+		Thread.sleep(3000);
+		driver.quit();
 		
 	}
-	*/
-
+*/
 
 }

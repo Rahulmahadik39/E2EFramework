@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T09:40:46 IST" name="Default suite" finished-at="2024-01-25T09:41:38 IST" duration-ms="51789">
+  <suite started-at="2024-01-24T13:30:54 IST" name="Default suite" finished-at="2024-01-24T13:32:10 IST" duration-ms="76578">
     <groups>
     </groups>
-    <test started-at="2024-01-25T09:40:46 IST" name="Default test" finished-at="2024-01-25T09:41:38 IST" duration-ms="51789">
-      <class name="tataNeuTest.AddProductIntoCromaCart">
-        <test-method is-config="true" signature="lounchBrowserGetElementsAsses()[pri:0, instance:tataNeuTest.AddProductIntoCromaCart@618b19ad]" started-at="2024-01-25T09:40:46 IST" name="lounchBrowserGetElementsAsses" finished-at="2024-01-25T09:40:59 IST" duration-ms="13036" status="PASS">
+    <test started-at="2024-01-24T13:30:54 IST" name="Default test" finished-at="2024-01-24T13:32:10 IST" duration-ms="76578">
+      <class name="webAppTestPackeg.TestBrokenLink">
+        <test-method is-config="true" signature="preRequesite()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:30:54 IST" name="preRequesite" finished-at="2024-01-24T13:31:48 IST" duration-ms="54736" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lounchBrowserGetElementsAsses -->
-        <test-method signature="cromaProductAddIntoCartTest()[pri:0, instance:tataNeuTest.AddProductIntoCromaCart@618b19ad]" started-at="2024-01-25T09:40:59 IST" name="cromaProductAddIntoCartTest" finished-at="2024-01-25T09:41:38 IST" duration-ms="38328" status="PASS">
+        </test-method> <!-- preRequesite -->
+        <test-method signature="testLinks()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:31:48 IST" name="testLinks" finished-at="2024-01-24T13:32:10 IST" duration-ms="21420" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cromaProductAddIntoCartTest -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tataNeuTest.AddProductIntoCromaCart@618b19ad]" started-at="2024-01-25T09:41:38 IST" name="closeDriver" finished-at="2024-01-25T09:41:38 IST" duration-ms="346" status="PASS">
+        </test-method> <!-- testLinks -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:webAppTestPackeg.TestBrokenLink@51399530]" started-at="2024-01-24T13:32:10 IST" name="closeApp" finished-at="2024-01-24T13:32:10 IST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tataNeuTest.AddProductIntoCromaCart -->
+        </test-method> <!-- closeApp -->
+      </class> <!-- webAppTestPackeg.TestBrokenLink -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
